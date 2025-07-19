@@ -1,0 +1,118 @@
+/* ------ Global ------ */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f1f4f9, #dff1ff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h5 {
+  color: #004085;
+}
+
+/* ------ Formulaire ------ */
+form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #004085;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* ------ Erreurs ------ */
+.Error, .Errorr, .email.Error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* ------ Bouton ------ */
+button.btn-primary {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: 0.4s ease;
+  width: 100%;
+}
+
+button.btn-primary:hover {
+  background: linear-gradient(to right, #0056b3, #0080ff);
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.4);
+}
+
+/* ------ Cartes utilisateurs ------ */
+.card {
+  border: none;
+  border-left: 5px solid #00c6ff;
+  border-radius: 12px;
+  background-color: #f8fbff;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #0056b3;
+}
+
+.card-text {
+  color: #333;
+}
+
+/* ------ Countdown ------ */
+#countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+/* ------ Liste des instructions ------ */
+.list-group-item {
+  background-color: #ffffff;
+  border: none;
+  border-left: 5px solid #0d6efd;
+  margin-bottom: 5px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* ------ Responsive ------ */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+  }
+
+  button.btn-primary {
+    font-size: 0.95rem;
+  }
+}
+#cards{
+  display: none;
+}
